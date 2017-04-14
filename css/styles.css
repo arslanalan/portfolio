@@ -1,0 +1,127 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*padding-top: 70px; /*Body padding required for "navbar-fixed-top" */
+}
+/*
+* {
+    border: 1px solid red !important;
+}*/
+
+/*Centering navbar content*/
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/*Navbar logo */
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 7px 15px;
+  width: auto;
+}
+
+/*make each columns have the same height in a row*/
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*==============================
+  ==============================
+     styles (custom classes)
+  ==============================
+  ==============================*/
+
+@media only screen and (max-width: 500px) {
+    .responsive-top-style {
+        text-align: center;
+        padding-top: 70px; /*Body padding required for "navbar-fixed-top". Bootstrap doc says "body { padding-top: 70px; }" is required. Instead of body, it's applied responsive-top-style class which is the first element's class.*/
+    }
+}
+
+.padding-topbottom {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+}
+
+.header-h1 {
+    font-size: 3em !important;
+}
+
+.background-style1 {
+    background-color: #fff;
+}
+
+.background-style2 {
+    background-color: #fafafa;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.background-style3 {
+    background-color: #f4f4f4;
+    box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.background-style4 {
+    background-color: #303030;
+    color: white;
+}
+
+.style-form {
+    background-color: #282828;;
+    border: none;
+    color: #bbb;
+}
+
+.box-style1 {
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.top-p {
+    font-size: 1.75em;
+    line-height: 1.75em;
+    font-weight: 300;
+}
+
+.header-p {
+    font-size: 1.75em;
+    line-height: 1.75em;
+    font-weight: 300;
+    margin-bottom: 5%;
+}
+
+.footer-p {
+    font-size: 1.75em;
+    line-height: 1.75em;
+    font-weight: 300;
+    margin-top: 5%;
+}
+
+.box-p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-top: 5%;
+}
+
+.text-muted {
+    color: #888;
+}
+
+/*==============================
+    align to center vertically
+  ==============================*/
+.vertical-center{
+    align-items: center;
+}
+
