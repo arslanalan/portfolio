@@ -37,14 +37,6 @@ body {
      styles (custom classes)
   ==============================
   ==============================*/
-
-@media only screen and (max-width: 767px) {
-    .responsive-top-style {
-        text-align: center;
-        padding-top: 100px; /*Body padding required for "navbar-fixed-top". Bootstrap doc says "body { padding-top: 70px; }" is required. Instead of body, it's applied responsive-top-style class which is the first element's class.*/
-    }
-}
-
 .padding-topbottom {
     padding-top: 7.5%;
     padding-bottom: 7.5%;
@@ -141,3 +133,36 @@ body {
     align-items: center;
 }
 
+
+@media only screen and (max-width: 767px) {
+    .responsive-top-style {
+        text-align: center;
+        padding-top: 100px; /*Body padding required for "navbar-fixed-top". Bootstrap doc says "body { padding-top: 70px; }" is required. Instead of body, it's applied responsive-top-style class which is the first element's class.*/
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .top-p {
+        font-size: 1.5em;
+    }
+
+    .header-h1 {
+        font-size: 3em !important;
+    }
+
+    .header-h2 {
+        font-size: 2em !important;
+    }
+
+    .header-p {
+        font-size: 1.75em;
+    }
+
+    .box-p {
+        font-size: 1.5em;
+    }
+
+    .box-h3 {
+        font-size: 1.75em;
+    }
+}
