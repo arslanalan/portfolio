@@ -50,10 +50,6 @@ body {
     padding-bottom: 7.5%;
 }
 
-.header-h1 {
-    font-size: 3em !important;
-}
-
 .background-style1 {
     background-color: #fff;
 }
@@ -88,14 +84,22 @@ body {
 }
 
 .top-p {
-    font-size: 1.75em;
-    line-height: 1.75em;
+    font-size: 1.25em;
+    line-height: 1.5em;
     font-weight: 300;
 }
 
+.header-h1 {
+    font-size: 2em !important;
+}
+
+.header-h2 {
+    font-size: 1.75em !important;
+}
+
 .header-p {
-    font-size: 1.75em;
-    line-height: 1.75em;
+    font-size: 1.5em;
+    line-height: 1.2em;
     font-weight: 300;
     margin-bottom: 5%;
 }
@@ -108,10 +112,22 @@ body {
 }
 
 .box-p {
-    font-size: 1.25em;
+    font-size: 1.15em;
     line-height: 1.5em;
     font-weight: 300;
     margin-top: 5%;
+}
+
+.box-h3 {
+    font-size: 1.5em;
+}
+
+.send-message-button {
+    width: 100%;
+    max-width: 400px;
+    min-height: 60px;
+    font-weight: 700;
+    font-size: 1.25em;
 }
 
 .text-muted {
