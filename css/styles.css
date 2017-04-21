@@ -38,10 +38,10 @@ body {
   ==============================
   ==============================*/
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 767px) {
     .responsive-top-style {
         text-align: center;
-        padding-top: 70px; /*Body padding required for "navbar-fixed-top". Bootstrap doc says "body { padding-top: 70px; }" is required. Instead of body, it's applied responsive-top-style class which is the first element's class.*/
+        padding-top: 100px; /*Body padding required for "navbar-fixed-top". Bootstrap doc says "body { padding-top: 70px; }" is required. Instead of body, it's applied responsive-top-style class which is the first element's class.*/
     }
 }
 
