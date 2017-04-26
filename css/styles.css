@@ -114,6 +114,19 @@ body {
     font-size: 1.5em;
 }
 
+.modal-p {
+    font-size: 1.15em;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.modal-h4 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .send-message-button {
     width: 100%;
     max-width: 400px;
@@ -160,6 +173,10 @@ body {
 
     .box-p {
         font-size: 1.5em;
+    }
+
+    .modal-p {
+        font-size: 1.4em;
     }
 
     .box-h3 {
